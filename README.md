@@ -15,7 +15,19 @@ This weather app is a simple React application that allows users to search for c
 - HTML/CSS/JS
 - Python Language
 
-## Setup
+## Example Run
 
-To run this project, install it locally using: npm start
+Here is how the weather app looks when you search for the weather in Los Angeles:
 
+![Weather App Example Run](test.png)
+
+## How to Run
+
+To run this project locally, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Navigate to the directory of the cloned repository.
+3. Install the dependencies by running:
+
+```bash
+npm install
