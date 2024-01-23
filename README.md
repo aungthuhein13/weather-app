@@ -19,7 +19,7 @@ This weather app is a simple React application that allows users to search for c
 
 Here is how the weather app looks when you search for the weather in Los Angeles:
 
-![Weather App Example Run](test.png)
+![Weather App Example Run](src/test.png)
 
 ## How to Run
 
@@ -31,3 +31,8 @@ To run this project locally, follow these steps:
 
 ```bash
 npm install
+
+4. After the installation is complete, you can start the app by running:
+
+'''bash
+npm start
