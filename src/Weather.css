@@ -1,0 +1,65 @@
+/* Weather.css */
+.weather-container {
+    max-width: 400px;
+    height: 400px;
+    background: #1E213A;
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 35px;
+    text-align: center;
+    position: relative; /* Set the position for absolute positioning of children */
+
+}
+
+.search-bar {
+    width: calc(100% - 60px); /* Adjust width to account for button width and margin */
+    padding: 10px;
+    margin-right: 18px; /* Add right margin to separate from the button */
+    display: inline-block; /* Inline-block for side-by-side elements */
+    border: 1px solid transparent; /* Adjust if you want a border */
+    border-radius: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.search-button {
+    padding: 10px;
+    margin-left: 15px; /* Overlap the button slightly over the search bar */
+    border: none;
+    border-radius: 50px;
+    background: #3C47E9;
+    color: white;
+    cursor: pointer;
+    position: absolute; /* Position the button absolutely within the container */
+    right: 20px; /* Position from the right edge of the container */
+    top: 20px; /* Position from the top of the container */
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.weather-icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.temperature {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.city-name {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.humidity,
+.wind-speed {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Additional styles for form and input elements as needed */
